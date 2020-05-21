@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div id="table1"></div>          
+        <div id="table2"></div>
+        
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/TableWidthFiltersAndPagination.js"></script> 
+        <script>
+            let table1=new TableWidthFiltersAndPagination({
+                id:    'table1',
+                rowsOnPage: 8
+            });
+            /*
+            let table2=new TableWidthFiltersAndPagination({
+                id:    'table2',
+                rowsOnPage: 5
+            });
+            */
+        </script>    
+    </body>
+</html>
